@@ -1,6 +1,6 @@
 {
   "name": "npm-btn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "sample npm button",
   "main": "dist/index.js",
   "module": "dist/index.js",
