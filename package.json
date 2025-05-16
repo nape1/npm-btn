@@ -2,12 +2,13 @@
   "name": "npm-btn",
   "version": "1.0.1",
   "description": "sample npm button",
-  "main": "dist/NpmBtn.js",
-  "module": "dist/NpmBtn.js",
-  "types": "dist/NpmBtn.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "Vibe Coding",
@@ -26,8 +27,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/NpmBtn.js",
-      "require": "./dist/NpmBtn.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   },
   "repository": {
