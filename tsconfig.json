@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "declaration": true,
+    "outDir": "dist",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": ["NpmBtn.tsx"],
+  "exclude": ["node_modules"]
+}
