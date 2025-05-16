@@ -1,10 +1,10 @@
 {
   "name": "npm-btn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sample npm button",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/NpmBtn.js",
+  "module": "dist/NpmBtn.js",
+  "types": "dist/NpmBtn.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -26,8 +26,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/NpmBtn.js",
+      "require": "./dist/NpmBtn.js"
     }
   },
   "repository": {
