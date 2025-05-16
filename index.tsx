@@ -7,7 +7,7 @@ interface NpmBtnProps {
 
 const NpmBtn: React.FC<NpmBtnProps> = ({ text, className='' }) => {
   return (
-    <button className={`npm-btn btn-${className}`} onClick={() => console.log('npm-btn clicked')}>{text}</button>
+    <button style={{ border: '1px solid blue'}} className={`npm-btn btn-${className}`} onClick={() => console.log('npm-btn clicked')}>{text}</button>
   );
 };
 
