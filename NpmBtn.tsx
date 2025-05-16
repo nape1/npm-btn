@@ -2,11 +2,12 @@ import React from 'react';
 
 interface NpmBtnProps {
   text: string;
+  className?: string;
 }
 
-const NpmBtn: React.FC<NpmBtnProps> = ({ text }) => {
+const NpmBtn: React.FC<NpmBtnProps> = ({ text, className }) => {
   return (
-    <button>{text}</button>
+    <button className={`npm-btn btn-${className}`}>{text}</button>
   );
 };
 
